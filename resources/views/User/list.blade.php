@@ -25,7 +25,9 @@
           <div class="articles-list__item masonry__item">
             <a class="article-listing-item" data-filters="Inspiration" href="/details/{{ str_replace([' ', ',', '.', '!', '?', '(', ')', '{', '}', '[', ']', '\'', '\"', '&', '$', '#', '@', '%', '+', '=', '\\', '|', '<', '>'], '-', $article->nom) }}-{{ $article->id }}.tsx">
               <div class="article-listing-item__cover">
-                <div class="article-listing-item__cover-image" style="background-image: url(img/news-listing-image-1.jpg)"></div>
+                <div class="article-listing-item__cover-image" >
+                <img style="width :770px;heigth:1770px" src="data:image/jpg;base64,{{ $article->photo }}" />
+                </div>
               </div>
               <div class="article-listing-item__content">
                 <div class="article-listing-item__header">

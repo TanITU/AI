@@ -16,6 +16,7 @@ class Article extends Model
         'idtechnologie',
         'nom',
         'description',
+        'photo',
     ];
     public $timestamps = false;
     public function categorie(){

@@ -48,6 +48,7 @@ CREATE TABLE article(
     idTechnologie int     NOT NUll,
     nom varchar(70) NOT NULL,
     description text NOT NULL,
+    photo text,
     PRIMARY KEY(id)
 );
 
@@ -74,3 +75,5 @@ INSERT INTO Categorie(intituler,nom,description)  VALUES ('RNA','Les réseaux de
 INSERT INTO Categorie(intituler,nom,description)  VALUES ('Machine Learning','Les algorithmes d apprentissage automatique (Machine Learning) ','ils utilisent des modèles statistiques pour apprendre à partir des données et améliorer les prévisions.');
 INSERT INTO Categorie(intituler,nom,description)  VALUES ('Deep Learning','Les systèmes d apprentissage profond (Deep Learning)','ils sont une sous-catégorie de l apprentissage automatique, qui utilise des réseaux de neurones profonds pour apprendre à partir de grandes quantités de données.');
 
+-- select --
+select id,idAdmin,idCategorie,idTechnologie,nom,description from article;

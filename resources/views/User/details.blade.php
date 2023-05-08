@@ -15,7 +15,7 @@
   <main>
     <div class="single-post">
       <div class="parallax-image single-post__head">
-        <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('../img/news-single-post-head-image.jpg')"></div>
+        <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" ><img style="width :1580px;heigth:270px" src="data:image/jpg;base64,{{ $article->photo }}" /></div>
       </div>
       <div class="container">
         <div class="row">
@@ -32,19 +32,18 @@
         </div>
         <div class="row">
           <div class="col-12 col-lg-8 offset-lg-2">
-            <h4 class="single-post__subtitle">Defaulting to Mindfulness</h4>
-            <div class="single-post__text">Everything along the way, to and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked
-              up, looked at, tasted, smelled, and shaken. Everything was interesting to her. She knew nothing. I knew everything…been there, done that. She was in the moment, I was in the past. She
-              was mindful. I was mindless.
+            <h4 class="single-post__subtitle">{{ $article->categorie->nom }}</h4>
+            <div class="single-post__text">{{ $article->categorie->description }}
             </div>
             <blockquote class="quote single-post__quote">
-              <div class="quote__text">Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.</div>
-              <div class="quote__name">Logan Cee</div>
-              <div class="quote__role">Envato Author</div>
+              <div class="quote__text">Pourquoi les ordinateurs ont-ils peur de la pluie ?
+
+Parce qu'ils ont peur de se mouiller les circuits !</div>
+              <div class="quote__name">ChatGPT</div>
+              <div class="quote__role">8 Mia</div>
             </blockquote>
-            <div class="single-post__text">Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the
-              present. The brain messages arising from those experiences can be deceptive.
-            </div>
+            <h4 class="single-post__subtitle">{{ $article->technologie->nom }}</h4>
+            <div class="single-post__text">{{ $article->technologie->description }}
           </div>
         </div>
       </div>

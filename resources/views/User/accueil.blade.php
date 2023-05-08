@@ -36,7 +36,7 @@
     <div class="header__container">
       <div class="header__wrapper container-fluid">
         <div class="header__inner">
-          <a class="logo header__logo" href="/">Arquito</a>
+          <a class="logo header__logo" href="/">AI-Flow</a>
           <button class="header__menu-button" type="button">
             <span class="header__menu-button-inner"></span>
           </button>
@@ -120,20 +120,20 @@
   <main>
     <div class="full-screen-block">
       <div class="full-screen-block__slides">
-        <div class="full-screen-block__slide section" style="background-image: url(img/full-screen-image-3.jpg)">
+        <div class="full-screen-block__slide section full-screen-block__slide full-screen-block__slide_dark" style="background-image: url(assets/img/pexels-cottonbro-studio-8721318.jpg)">
           <div class="container">
             <div class="full-screen-block__slide-inner">
-              <div class="full-screen-block__subtitle">Residence</div>
+              <div class="full-screen-block__subtitle">Vouvelles inventions</div>
               <div class="full-screen-block__title-wrapper">
-                <div class="full-screen-block__title">Capri Ocean
-                  <br>
-                  Museum
+                <div class="full-screen-block__title">Applications de l'IA 
+                <br>
+                  dans différents domaines : 
                 </div>
-                <div class="full-screen-block__label">completed
-                  <div class="full-screen-block__label-value">2019</div>
+                <div class="full-screen-block__label">l'IA est utilisée dans de nombreux domaines, notamment la santé, la finance, l'automobile, la logistique, la sécurité et la défense. Les sites d'information sur l'IA peuvent 
+                  <div class="full-screen-block__label-value">vous donner un aperçu des applications de l'IA dans ces domaines et comment elle peut améliorer les performances et l'efficacité.</div>
                 </div>
               </div>
-              <a class="full-screen-block__link full-screen-block__link_inverted" href="#">See project</a>
+              <a class="full-screen-block__link full-screen-block__link_inverted" href="#">A suivre</a>
               <div class="full-screen-block__counter">
                 <span>01</span>
                 <span class="full-screen-block__counter-all">/04</span>
@@ -141,20 +141,20 @@
             </div>
           </div>
         </div>
-        <div class="full-screen-block__slide section full-screen-block__slide full-screen-block__slide_dark" style="background-image: url(img/full-screen-image-2.jpg)">
+        <div class="full-screen-block__slide section" style="background-image: url(assets/img/pexels-andrew-neel-15863000.jpg)">
           <div class="container">
             <div class="full-screen-block__slide-inner">
-              <div class="full-screen-block__subtitle">Residence</div>
+              <div class="full-screen-block__subtitle">A savoir</div>
               <div class="full-screen-block__title-wrapper">
-                <div class="full-screen-block__title">Robert Villa In
+                <div class="full-screen-block__title">Les dernières avancées 
                   <br>
-                  Forest
+                  de l'IA :
                 </div>
-                <div class="full-screen-block__label">completed
-                  <div class="full-screen-block__label-value">2019</div>
+                <div class="full-screen-block__label">l'IA est un domaine en constante évolution, et il est important de savoir ce qui se passe dans ce domaine. Les sites d'information sur l'IA vous donneront des mises à jour régulières sur les dernières avancées en matière d'IA, notamment les nouvelles technologies, 
+                  <div class="full-screen-block__label-value">les applications émergentes, les avancées de la recherche et les développements commerciaux.</div>
                 </div>
               </div>
-              <a class="full-screen-block__link full-screen-block__link_inverted" href="#">See project</a>
+              <a class="full-screen-block__link full-screen-block__link_inverted" href="#">A suivre</a>
               <div class="full-screen-block__counter">
                 <span>02</span>
                 <span class="full-screen-block__counter-all">/04</span>
@@ -162,20 +162,20 @@
             </div>
           </div>
         </div>
-        <div class="full-screen-block__slide section" style="background-image: url(img/full-screen-image-1.jpg)">
+        <div class="full-screen-block__slide section" style="background-image: url(assets/img/pexels-pixabay-50711.jpg)">
           <div class="container">
             <div class="full-screen-block__slide-inner">
-              <div class="full-screen-block__subtitle">Residence</div>
+              <div class="full-screen-block__subtitle">Conséquence</div>
               <div class="full-screen-block__title-wrapper">
-                <div class="full-screen-block__title">Minority Nation
+                <div class="full-screen-block__title">Les avantages et les risques 
                   <br>
-                  Museum
+                  de l'IA :
                 </div>
-                <div class="full-screen-block__label">completed
-                  <div class="full-screen-block__label-value">2018</div>
+                <div class="full-screen-block__label">l'IA peut apporter des avantages considérables dans de nombreux domaines, mais elle peut également présenter des risques importants, tels que l'automatisation des emplois, la prise de décision biaisée, la sécurité et la confidentialité des données.
+                  <div class="full-screen-block__label-value">Les sites d'information sur l'IA peuvent vous aider à comprendre les avantages et les risques potentiels de l'IA et comment les gérer.</div>
                 </div>
               </div>
-              <a class="full-screen-block__link full-screen-block__link_inverted" href="#">See project</a>
+              <a class="full-screen-block__link full-screen-block__link_inverted" href="#">A suivre</a>
               <div class="full-screen-block__counter">
                 <span>03</span>
                 <span class="full-screen-block__counter-all">/04</span>
@@ -183,20 +183,20 @@
             </div>
           </div>
         </div>
-        <div class="full-screen-block__slide section full-screen-block__slide full-screen-block__slide_dark" style="background-image: url(img/full-screen-image-4.jpg)">
+        <div class="full-screen-block__slide section full-screen-block__slide full-screen-block__slide_dark" style="background-image: url(assets/img/pexels-cottonbro-studio-6153354.jpg)">
           <div class="container">
             <div class="full-screen-block__slide-inner">
-              <div class="full-screen-block__subtitle">Residence</div>
+              <div class="full-screen-block__subtitle">Avez vous peur...</div>
               <div class="full-screen-block__title-wrapper">
-                <div class="full-screen-block__title">Citizen Complex
+                <div class="full-screen-block__title">Les questions éthiques 
                   <br>
-                  Interior
+                  liées à l'IA :
                 </div>
-                <div class="full-screen-block__label">completed
-                  <div class="full-screen-block__label-value">2017</div>
+                <div class="full-screen-block__label">l'IA soulève des questions éthiques importantes, notamment en matière de responsabilité, d'équité et de transparence. Les sites d'information sur l'IA peuvent vous aider à comprendre les implications éthiques de l'IA 
+                  <div class="full-screen-block__label-value">et les débats en cours sur la manière de réglementer l'utilisation de l'IA de manière responsable et équitable.</div>
                 </div>
               </div>
-              <a class="full-screen-block__link full-screen-block__link_inverted" href="#">See project</a>
+              <a class="full-screen-block__link full-screen-block__link_inverted" href="#">A suivre</a>
               <div class="full-screen-block__counter">
                 <span>04</span>
                 <span class="full-screen-block__counter-all">/04</span>
@@ -204,6 +204,7 @@
             </div>
           </div>
         </div>
+        
         <div class="full-screen-block__footer">
           <div class="container-fluid">
             <div class="full-screen-block__footer-inner">

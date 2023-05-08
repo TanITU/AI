@@ -4,7 +4,7 @@
 
 @section('Content')
 <section class="login-clean" style="height: 750px;">
-        <form action="/insertArticle" method="POST">
+        <form action="/insertArticle" method="POST" enctype="multipart/form-data">
             @csrf
             <h2 class="visually-hidden">Ajouter votre article</h2>
             <div class="illustration"><i class="icon ion-log-in" style="border-color: rgb(230,216,92);color: #4e73df;"></i></div>

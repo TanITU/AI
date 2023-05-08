@@ -35,10 +35,13 @@ class AdminController extends Controller{
         $article->idtechnologie = request('idtechnologie');
         $article->nom = request('nom');
         $article->description = request('description');
+        $image = $request->file('photo');
+        $article->photo = base64_encode(file_get_contents($image));
         // echo($article);
         $article->save();
         $categories = DB::table('categorie')->get();
         $technologies = DB::table('technologie')->get();
+        // dump($imageData);
         return view('Admin.index',[
             'categories' => $categories,
             'technologies' => $technologies,
